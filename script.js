@@ -6,7 +6,7 @@ let i = 0;
 const intervalId = setInterval(() => {
     introText.textContent += text[i];
     i++;
-    if (i > text.length) {
+    if (i > text.length-1) {
         clearInterval(intervalId);
     }
 }, 50); 
