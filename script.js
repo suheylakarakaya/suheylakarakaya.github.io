@@ -4,9 +4,10 @@ introText.textContent = '';
 
 let i = 0;
 const intervalId = setInterval(() => {
-    introText.textContent += text[i];
-    i++;
-    if (i > text.length-1) {
+    if (i < text.length) { // Bu koşul eklendi
+        introText.textContent += text[i];
+        i++;
+    } else {
         clearInterval(intervalId);
     }
-}, 50); 
+}, 50);
