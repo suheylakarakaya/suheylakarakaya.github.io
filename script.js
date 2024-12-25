@@ -4,7 +4,7 @@ introText.textContent = '';
 
 let i = 0;
 const intervalId = setInterval(() => {
-    if (i < text.length) { // Bu koşul eklendi
+    if (i < text.length) {
         introText.textContent += text[i];
         i++;
     } else {
