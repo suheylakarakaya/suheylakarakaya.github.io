@@ -58,3 +58,19 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.contact label {
+  display: block; /* Etiketleri alt alta sıralar */
+  margin-bottom: 5px; /* Etiketler arası boşluk ekler */
+}
+
+.contact label {
+  display: block; /* Etiketleri alt alta sıralar */
+  margin-bottom: 5px; /* Etiketler arası boşluk ekler */
+}
+
+.contact input,
+.contact textarea {
+  width: 100%; /* Input ve textarea elementlerini tam genişliğe getirir */
+  padding: 5px; /* Input ve textarea alanlarında boşluk ekler */
+  border: 1px solid #ccc; /* Input ve textarea elementlerine kenarlık ekler */
+}
